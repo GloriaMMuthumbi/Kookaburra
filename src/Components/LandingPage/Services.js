@@ -1,7 +1,7 @@
 import React from "react";
-import service_1 from "../Assets/services_1.png";
-import service_2 from "../Assets/services_2.png";
-import service_3 from "../Assets/services_3.png";
+import service_1 from "../../Assets/services_1.png";
+import service_2 from "../../Assets/services_2.png";
+import service_3 from "../../Assets/services_3.png";
 
 const Services = () => {
     return ( 
@@ -9,7 +9,7 @@ const Services = () => {
             <h2 className="font-poppins font-extrabold text-xl my-8">Services</h2>
             <div className="flex w-full justify-evenly">
                 <div className="relative flex flex-col justify-center">
-                    <div className="max-w-sm mx-auto relative py-12 bg-darkblue-500 z-20 rounded-xl transition-opacity duration-300 ease-in opacity-0 hover:opacity-100">
+                    <div className="max-w-sm mx-auto relative py-12 bg-darkblue-500 z-20 rounded-xl transition-opacity duration-200 ease-in opacity-0 hover:opacity-100">
                         <div className="p-6">
                         <div className="font-bold text-xl mb-2 text-white">Environment Impact Assessment</div>
                         <p className="font-poppins text-sm font-light text-white ">
@@ -23,7 +23,7 @@ const Services = () => {
                     <img className="absolute inset-0 rounded-xl w-full h-full object-cover z-10" src={service_1} alt="Sunset in the mountains" />
                 </div>
                 <div className="relative flex flex-col justify-center">
-                    <div className="max-w-sm mx-auto relative py-12 bg-greenblue-500 z-20 rounded-xl transition-opacity duration-300 ease-in opacity-0 hover:opacity-100">
+                    <div className="max-w-sm mx-auto relative py-12 bg-greenblue-500 z-20 rounded-xl transition-opacity duration-200 ease-in opacity-0 hover:opacity-100">
                         <div className="p-6">
                         <div className="font-bold text-xl mb-2 text-white">Environmental Auditing</div>
                         <p className="font-poppins text-sm font-light text-white ">
@@ -37,7 +37,7 @@ const Services = () => {
                     <img className="absolute inset-0 rounded-xl w-full h-full object-cover z-10" src={service_2} alt="Sunset in the mountains" />
                 </div>
                 <div className="relative flex flex-col justify-center">
-                    <div className="max-w-sm mx-auto relative py-12 bg-orange-500 z-20 rounded-xl transition-opacity duration-300 ease-in opacity-0 hover:opacity-100">
+                    <div className="max-w-sm mx-auto relative py-12 bg-orange-500 z-20 rounded-xl transition-opacity duration-200 ease-in opacity-0 hover:opacity-100">
                         <div className="p-6">
                         <div className="font-bold text-xl mb-2 text-white">Others</div>
                         <p className="font-poppins text-sm font-light text-white ">
@@ -52,7 +52,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="flex items-center justify-center">
-                <button className="font-poppins uppercase bg-white text-darkblue-500 border border-darkblue-500 my-10 rounded-xl w-36 h-10 transition-colors duration-350 text-sm font-bold">Explore More!</button>
+                <button className="font-poppins uppercase bg-white text-darkblue-500 border border-darkblue-500 hover:text-white hover:bg-darkblue-500 my-10 rounded-xl w-36 h-10 transition-colors duration-350 text-sm font-bold">Explore More!</button>
             </div>
         </section>
     );

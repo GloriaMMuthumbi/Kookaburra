@@ -1,5 +1,5 @@
 import React from "react";
-import aboutimg from "../Assets/aboutus_img.png";
+import aboutimg from "../../Assets/aboutus_img.png";
 // import PieChart from "./SubComponents/PieChart";
 
 const AboutUs = () => {

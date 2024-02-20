@@ -1,11 +1,11 @@
 import './App.css';
-import AboutUs from './Components/AboutUs';
-import FeaturedProjects from './Components/FeaturedProjects';
+import AboutUs from './Components/LandingPage/AboutUs';
+import FeaturedProjects from './Components/LandingPage/FeaturedProjects';
 import Footer from './Components/Footer';
-import HeroSection from './Components/HeroSection';
-import TheTeam from './Components/MeetTheTeam';
-import Services from './Components/Services';
-import WhyChooseUs from './Components/WhyChooseUs';
+import HeroSection from './Components/LandingPage/HeroSection';
+import TheTeam from './Components/LandingPage/MeetTheTeam';
+import Services from './Components/LandingPage/Services';
+import WhyChooseUs from './Components/LandingPage/WhyChooseUs';
 
 function App() {
   return (

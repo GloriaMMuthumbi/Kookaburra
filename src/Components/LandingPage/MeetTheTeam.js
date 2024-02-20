@@ -1,5 +1,5 @@
 import React from "react";
-import TeamMember from "./SubComponents/TeamMember";
+import TeamMember from "../SubComponents/TeamMember";
 
 const TheTeam = () => {
     return ( 
@@ -14,7 +14,7 @@ const TheTeam = () => {
                 <TeamMember className="w-1/3"/>
             </div>
             <div className="flex items-center justify-center">
-                <button className="font-poppins uppercase bg-darkblue-500 text-white border border-darkblue-500 rounded-xl w-44 h-10 transition-colors duration-350 my-4 text-sm font-bold">Reach Out Today!</button>
+                <button className="font-poppins uppercase bg-darkblue-500 text-white border border-darkblue-500 hover:text-darkblue-500 hover:bg-white rounded-xl w-44 h-10 transition-colors duration-350 my-4 text-sm font-bold">Reach Out Today!</button>
             </div>
         </section>
      );

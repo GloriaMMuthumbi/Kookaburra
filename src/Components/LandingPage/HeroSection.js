@@ -1,6 +1,6 @@
 import React from "react";
-import bg from "../Assets/background-hero.png";
-import NavMenu from './NavMenu';
+import bg from "../../Assets/background-hero.png";
+import NavMenu from '../NavMenu';
 
 const HeroSection = () => {
     return (
@@ -9,7 +9,7 @@ const HeroSection = () => {
             </div>
             <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
             <NavMenu />
-            <div className="absolute h-full flex justify-center items-center mx-24 w-1/2">
+            <div className="absolute h-full flex justify-center items-center mx-24 w-1/2 animate-fade-right animate-once">
                 <div>
                 <h1 className="text-white font-poppins font-extrabold text-4xl mb-4">Driving Sustainable Solutions for a <span className="text-greenblue-500 uppercase">greener</span> tomorrow</h1>
                 <p className="font-poppins text-white text-md">Expert Environmental Impact Assessment and Auditing Services</p>

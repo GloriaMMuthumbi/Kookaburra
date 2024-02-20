@@ -1,5 +1,5 @@
 import React from "react";
-import Reason from "./SubComponents/Reason";
+import Reason from "../SubComponents/Reason";
 
 const WhyChooseUs = () => {
     return ( 
