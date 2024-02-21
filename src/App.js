@@ -1,23 +1,16 @@
 import './App.css';
-import AboutUs from './Components/LandingPage/AboutUs';
-import FeaturedProjects from './Components/LandingPage/FeaturedProjects';
-import Footer from './Components/Footer';
-import HeroSection from './Components/LandingPage/HeroSection';
-import TheTeam from './Components/LandingPage/MeetTheTeam';
-import Services from './Components/LandingPage/Services';
-import WhyChooseUs from './Components/LandingPage/WhyChooseUs';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from './Components/LandingPage/LandingPage';
+import ServicesPage from './Components/Services Page/ServicesPage';
 
 function App() {
   return (
-      <div className='App'>
-        <HeroSection />
-        <AboutUs />
-        <Services />
-        <WhyChooseUs />
-        <FeaturedProjects />
-        <TheTeam />
-        <Footer />
-      </div>
+    <Router>
+        <Routes>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/services' element={<ServicesPage />} />
+        </Routes>
+    </Router>
     );
 }
 

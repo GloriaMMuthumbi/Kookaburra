@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../Assets/logo.svg";
+import logo from "../Assets/kookaborra.png";
+import { NavLink } from "react-router-dom";
 
 const NavMenu = () => {
     return ( 
@@ -17,18 +18,21 @@ const NavMenu = () => {
                     </button>
                     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-16 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                            <li>
-                                <a href="https://www.google.com/" className="font-poppins text-sm font-semibold block py-2 px-5 text-white bg-blue-700 rounded md:bg-transparent md:text-greenblue-500 md:p-0" aria-current="page">Home</a>
-                            </li>
-                            <li>
-                                <a href="https://www.google.com/" className="font-poppins block text-sm py-2 px-5 text-charcoal-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-greenblue-500 md:p-0">Services</a>
-                            </li>
-                            <li>
-                                <a href="https://www.google.com/" className="font-poppins block text-sm py-2 px-5 text-charcoal-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-greenblue-500 md:p-0">About Us</a>
-                            </li>
-                            <li>
-                                <a href="https://www.google.com/" className="font-poppins block text-sm py-2 px-5 text-charcoal-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-greenblue-500 md:p-0">Contact Us</a>
-                            </li>
+                            <NavLink to="/"
+                                className="font-poppins block text-sm py-2 px-5 text-charcoal-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-greenblue-500 md:p-0"
+                            >Home</NavLink>
+                            <NavLink to="/services"
+                                className="font-poppins block text-sm py-2 px-5 text-charcoal-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-greenblue-500 md:p-0"
+                            >Services</NavLink>
+                            <NavLink to="/about-us"
+                                className="font-poppins block text-sm py-2 px-5 text-charcoal-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-greenblue-500 md:p-0"
+                            >About Us</NavLink>
+                            <NavLink to="/blogs-and-projects"
+                                className="font-poppins block text-sm py-2 px-5 text-charcoal-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-greenblue-500 md:p-0"
+                            >Blogs & Projects</NavLink>
+                            <NavLink to="/contact-us"
+                                className="font-poppins block text-sm py-2 px-5 text-charcoal-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-greenblue-500 md:p-0"
+                            >Contact Us</NavLink>
                         </ul>
                     </div>
                 </div>
