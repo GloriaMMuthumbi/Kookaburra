@@ -9,7 +9,7 @@ const UniqueFactors = () => {
                 <Factor />
                 <Factor />
                 <Factor />
-                <Factor />
+                <Factor /> 
             </div>
         </div>
      );
