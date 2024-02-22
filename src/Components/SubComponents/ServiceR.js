@@ -9,7 +9,7 @@ const ServiceR = ({ number,  title, description, benefits, imageUrl }) => {
                 </span>
             </div>
             <div className="flex flex-col w-2/3">
-                <p className="font-bold text-xl mb-2 text-charcoal-500">{title}</p>
+                <p className="font-bold text-xl mb-2 text-darkblue-500">{title}</p>
                 <div className="flex flex-row mb-4 text-charcoal-500">
                     <p className="font-semibold mr-6">Description:</p>
                     <p className="text-sm leading-6">{description}</p>

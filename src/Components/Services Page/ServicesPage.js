@@ -7,7 +7,7 @@ import ReachOut from "./ReachOut";
 
 const ServicesPage = () => {
     return ( 
-        <div className='App'>
+        <div className='App bg-'>
             <HeaderSection />
             <Services />
             <Testimonials />

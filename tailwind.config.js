@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
+        'playfair': ['Playfair Display', 'serif'],
       },
       colors: {
         charcoal: {
@@ -20,6 +21,12 @@ module.exports = {
         },
         orange: {
           500: '#FF9900'
+        },
+        lightgray: {
+          500: '#F5F5F5'
+        },
+        lightergray: {
+          500: '#F2F2F2'
         }
       }
     },
