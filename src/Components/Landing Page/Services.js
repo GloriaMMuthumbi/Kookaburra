@@ -52,7 +52,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="flex items-center justify-center">
-                <button className="font-poppins uppercase bg-white text-darkblue-500 border border-darkblue-500 hover:text-white hover:bg-darkblue-500 my-10 rounded-xl w-36 h-10 transition-colors duration-350 text-sm font-bold">Explore More!</button>
+                <button className="font-poppins uppercase bg-white text-darkblue-500 border border-darkblue-500 hover:text-white hover:bg-darkblue-500 my-10 rounded-3xl w-36 h-10 transition-colors duration-350 text-sm font-bold">Explore More!</button>
             </div>
         </section>
     );

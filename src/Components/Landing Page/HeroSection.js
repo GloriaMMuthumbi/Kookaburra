@@ -14,7 +14,7 @@ const HeroSection = () => {
                     <h1 className="text-white font-extrabold text-4xl mb-4">Welcome to <span className="text-darkblue-500">Kooka</span><span className="text-greenblue-500">burra</span></h1>
                     <p className="text-white text-xl font-semibold mb-4">Explore our innovative environmental services and solutions.</p>
                     <p className="text-white font-light">Discover Kookaburra, your go-to partner for environmental solutions. Our expert team offers tailored services, from impact assessments to auditing, to drive sustainability and meet your organization's needs. Join us in creating a greener future today.</p>
-                    <button className="uppercase bg-orange-500 border-2 border-orange-500 hover:bg-white hover:border-white hover:text-orange-500 text-white rounded-xl w-36 h-10 transition-colors duration-350 text-sm font-bold my-5">
+                    <button className="uppercase bg-orange-500 border-2 border-orange-500 hover:bg-white hover:border-white hover:text-orange-500 text-white rounded-3xl w-36 h-10 transition-colors duration-350 text-sm font-bold my-5">
                         Get Started
                     </button>
                 </div>
