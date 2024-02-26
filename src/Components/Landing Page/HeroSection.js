@@ -7,9 +7,9 @@ const HeroSection = () => {
         <div className="relative h-screen w-full overflow-hidden">
             <div className="absolute inset-0 w-full h-full bg-cover bg-center z-0" style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             </div>
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 animate-in fade-in duration-1000"></div>
             <NavMenu />
-            <div className="font-poppins absolute h-full flex justify-center items-center w-1/2 mx-24">
+            <div className="font-poppins absolute h-full flex justify-center items-center w-1/2 mx-24 animate-in fade-in slide-in-from-left duration-1000">
                 <div>
                     <h1 className="text-white font-extrabold text-4xl mb-4">Welcome to <span className="text-darkblue-500">Kooka</span><span className="text-greenblue-500">burra</span></h1>
                     <p className="text-white text-xl font-semibold mb-4">Explore our innovative environmental services and solutions.</p>
