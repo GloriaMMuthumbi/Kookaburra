@@ -7,11 +7,11 @@ import washington from "../../Assets/Washingtone.jpg";
 
 const TheTeam = () => {
     return ( 
-        <section className="my-20">
-            <h2 className="mx-24 font-poppins font-extrabold text-xl text-charcoal-500 my-2">The Team</h2>
-            <p className="font-poppins mx-24 text-md text-charcoal-500">Meet the dedicated professionals at 
+        <section className="my-12 mx-4 md:mx-24">
+            <h2 className="font-poppins font-extrabold text-xl text-charcoal-500 my-2">The Team</h2>
+            <p className="font-poppins text-md text-charcoal-500">Meet the dedicated professionals at 
             Kookaburra Group Ltd, where passion for environmental stewardship and expertise converge to drive positive change.</p>
-            <div className="flex mx-auto justify-center my-4 items-center">
+            <div className="mx-auto justify-center my-4 items-center grid md:grid-cols-4 grid-cols-1">
                 <TeamMember
                     name="Prof. Paul Maurice Syagga"
                     position="Lead Consultant"

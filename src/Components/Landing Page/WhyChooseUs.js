@@ -4,12 +4,12 @@ import Reason from "../SubComponents/Reason";
 const WhyChooseUs = () => {
     return ( 
         <section className="bg-darkblue-500 py-8">
-            <div className="my-12 mx-24">
+            <div className="sm:my-12 sm:mx-24 my-6 mx-4">
                 <h2 className="font-poppins font-extrabold text-xl my-4 text-white">Why <span className="text-orange-500">Choose</span> Us</h2>
-                <p className="font-poppins text-white text-md">We stand out as a leading environmental consultancy firm committed to driving positive change and promoting sustainable development. Here's why clients choose us for their environmental needs
+                <p className="font-poppins text-white text-base leading-7">We stand out as a leading environmental consultancy firm committed to driving positive change and promoting sustainable development. Here's why clients choose us for their environmental needs
                 and insights to every project, ensuring comprehensive solutions tailored to our clients' needs.</p>
-                <div className="flex flex-row">
-                    <div className="col w-1/2">
+                <div className="grid sm:grid-cols-2 grid-cols-1">
+                    <div className="col sm:w-1/2">
                         <Reason
                             title="Expertise"
                             description="We offer unparalleled expertise in environmental assessment, planning, and management. Our specialists bring diverse skills and insights to every project, ensuring comprehensive solutions tailored to our clients' needs."
@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
                             description="Our clients' success is our top priority. We collaborate closely with our clients to understand their objectives, challenges, and priorities, delivering personalized solutions that exceed expectations and add value to their projects."
                         />
                     </div>
-                    <div className="col w-1/2">
+                    <div className="col sm:w-1/2">
                         <Reason
                         title="Commitment to Sustainablity"
                         description="We are deeply committed to environmental stewardship and sustainability. Our approach prioritizes environmental conservation, social responsibility, and economic viability, aligning with global sustainability goals and best practices."

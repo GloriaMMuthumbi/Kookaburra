@@ -10,7 +10,7 @@ import WhyChooseUs from './WhyChooseUs';
 
 const LandingPage = () => {
     return ( 
-        <div className='App'>
+        <div className='App w-full overflow-hidden'>
             <HeroSection />
             <AboutUs />
             <Services />

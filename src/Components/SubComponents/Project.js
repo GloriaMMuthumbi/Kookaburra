@@ -3,7 +3,7 @@ import project from "../../Assets/project.png";
 
 const Project = () => {
     return ( 
-        <div className="rounded-xl bg-white flex flex-col mx-10 p-8 transform hover:scale-105 transition-transform duration-500">
+        <div className="rounded-xl bg-white flex flex-col lg:mx-10 mx-4 p-8 transform hover:scale-105 transition-transform duration-500">
             <img src={project} alt="project-img"/>
             <div className="flex flex-row my-2 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#219BAF" className="w-5 h-5">

@@ -7,9 +7,9 @@ const Testimonials = () => {
             <p className="font-bold text-4xl text-white mb-10">Hear what our customers have to say about us!</p>
             <div className="flex">
                 <Testimonial />
+                {/* <Testimonial />
                 <Testimonial />
-                <Testimonial />
-                <Testimonial />
+                <Testimonial /> */}
             </div>
             
         </section>

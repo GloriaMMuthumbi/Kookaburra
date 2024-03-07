@@ -3,11 +3,11 @@ import Project from "../SubComponents/Project";
 
 const FeaturedProjects = () => {
     return ( 
-        <section className="my-12">
-            <h2 className=" mx-24 font-poppins font-extrabold text-xl text-greenblue-500 my-2">Featured <span className="text-darkblue-500">projects</span></h2>
-            <p className="font-poppins mx-24 text-md text-charcoal-500">Discover some of our recent projects that showcase our expertise, innovation, and commitment to environmental sustainability:</p>
+        <section className="my-12 mx-4 md:mx-24">
+            <h2 className="font-poppins font-extrabold text-xl text-greenblue-500 my-2">Featured <span className="text-darkblue-500">projects</span></h2>
+            <p className="font-poppins text-md text-charcoal-500">Discover some of our recent projects that showcase our expertise, innovation, and commitment to environmental sustainability:</p>
             <div className="flex w-full justify-evenly">
-                <div className="flex flex-row w-full justify-center bg-darkblue-500 bg-opacity-85 py-10 px-24 my-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center bg-darkblue-500 bg-opacity-85 py-10 sm:px-24 my-12">
                     <Project />
                     <Project />
                     <Project />
